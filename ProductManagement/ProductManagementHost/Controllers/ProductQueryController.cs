@@ -8,7 +8,7 @@ using ProductManagement.Facade.Contracts.Products.Services;
 namespace ProductManagementHost.Controllers
 {
     [ApiController]
-    [Route("api/Product")]
+    [Route("api/v1/Product")]
     public class ProductQueryController : ControllerBase
     {
         private readonly IProductFacadeQuery _facadeQuery;

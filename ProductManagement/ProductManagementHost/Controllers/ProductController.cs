@@ -7,7 +7,7 @@ using ProductManagement.Facade.Contracts.Products.ViewModels;
 namespace ProductManagementHost.Controllers
 {
     [ApiController]
-    [Route("api/Product")]
+    [Route("api/v1/Product")]
     public class ProductController : ControllerBase
     {
         private readonly IProductFacadeService _facadeService;
